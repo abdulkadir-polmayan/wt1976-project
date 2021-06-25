@@ -1,0 +1,126 @@
+body {
+    transition:all 1s ;
+}
+
+#main-page-h {
+    text-shadow: 1px 1px 15px rgb(75, 75, 75);
+    display: flex;
+    margin-left: 200px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 30px;
+    margin-top: 200px;
+    font-weight: lighter;
+    font-family: poppins;
+}
+
+#show{
+    text-shadow: 1px 1px 15px rgb(75, 75, 75);
+
+        display: flex;
+        margin-left: 600px;
+        position: absolute;
+        z-index: 1;
+        text-align: center;
+        letter-spacing: 5px;
+        margin-top: 600px;
+        /* font-weight: lighter; */
+        font-family: poppins;
+    
+}
+#main-page-h2 {
+    text-shadow: 1px 1px 15px rgb(75, 75, 75);
+
+    display: none;
+    margin-left: 250px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 200px;
+    font-weight: lighter;
+    font-family: poppins;
+}
+#main-page-h3 {
+    text-shadow: 1px 1px 15px rgb(156, 156, 156);
+
+    display: none;
+    margin-left: 200px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 30px;
+    margin-top: 200px;
+    font-weight: lighter;
+    font-family: poppins;
+}
+
+#yellow-box {
+    margin-top: 50px;
+    width: 700px;
+    height: 350px;
+    background-color: #FEFDCA;
+    position: absolute;
+    z-index: -1;
+    /* opacity: 0.5; */
+    border-radius: 20px;
+}
+#red-box {
+    margin-top: 150px;
+    margin-left: 805px;
+    width: 400px;
+    height: 350px;
+    background-color: #FFCFDF;
+    position: absolute;
+    z-index: -2;
+    /* opacity: 0.5; */
+    border-radius: 20px;
+}
+#green-box {
+    margin-top: 450px;
+    margin-left:300px ;
+    width: 400px;
+    height: 250px;
+    background-color: #E0F9B5;
+    position: absolute;
+    z-index: -3;
+    /* opacity: 0.5; */
+    border-radius: 20px;
+}
+#blue-box {
+    margin-top: 450px;
+    margin-left: 705px;
+    width: 400px;
+    height: 150px;
+    background-color: #A5DEE5;
+    position: absolute;
+    z-index: -4;
+    /* opacity: 0.5; */
+    border-radius: 20px;
+}
+
+#floatingTextarea {
+    color: black;
+    background-color: transparent;
+    padding: 30px;
+    display: none;
+    position: absolute;
+    z-index: 0;
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+   
+}
+
+#floatingTextarea:focus {
+    outline-color: transparent;
+    outline-style: none;
+}
+
+:focus{
+    outline-color: transparent;
+    outline-style: none;
+}
